@@ -13,6 +13,7 @@
 		303B5A58242FA6B80061E1DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303B5A56242FA6B80061E1DA /* Main.storyboard */; };
 		303B5A5A242FA6BA0061E1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303B5A59242FA6BA0061E1DA /* Assets.xcassets */; };
 		303B5A5D242FA6BA0061E1DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303B5A5B242FA6BA0061E1DA /* LaunchScreen.storyboard */; };
+		303B5A662430723C0061E1DA /* PointCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B5A652430723C0061E1DA /* PointCount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		303B5A59242FA6BA0061E1DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		303B5A5C242FA6BA0061E1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		303B5A5E242FA6BA0061E1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303B5A652430723C0061E1DA /* PointCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		303B5A4F242FA6B80061E1DA /* TennisCore */ = {
 			isa = PBXGroup;
 			children = (
+				303B5A642430721F0061E1DA /* Model */,
 				303B5A50242FA6B80061E1DA /* AppDelegate.swift */,
 				303B5A52242FA6B80061E1DA /* SceneDelegate.swift */,
 				303B5A54242FA6B80061E1DA /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				303B5A5E242FA6BA0061E1DA /* Info.plist */,
 			);
 			path = TennisCore;
+			sourceTree = "<group>";
+		};
+		303B5A642430721F0061E1DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				303B5A652430723C0061E1DA /* PointCount.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				303B5A55242FA6B80061E1DA /* ViewController.swift in Sources */,
 				303B5A51242FA6B80061E1DA /* AppDelegate.swift in Sources */,
 				303B5A53242FA6B80061E1DA /* SceneDelegate.swift in Sources */,
+				303B5A662430723C0061E1DA /* PointCount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
